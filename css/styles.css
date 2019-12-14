@@ -1,0 +1,22 @@
+/* Reset */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Main Styling */
+html, body {
+  font-family: 'Merriweather', serif;
+}
+
+/* Nav */
+
+#main-nav {
+  background-color: rgb(40, 59, 110);
+  color: white;
+  text-align: center;
+  padding: 30px 0;
+}
+
+/* Header */

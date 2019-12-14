@@ -20,8 +20,8 @@
     <div class="container">
       <h2>Signup for our newsletter</h2>
       <p>Get the latest news on how your code is doing right in your inbox</p>
-      <div class="bar"></div>
-      <div class="bar"></div>
+      <div class="bar-1"></div>
+      <div class="bar-2"></div>
     </div>
   </header>
 
@@ -41,30 +41,69 @@
       <input type="text" id="city">
       <label for="state">State</label>
       <select name="state" id="state">
+        <option value="default">Choose State</option>
+        <option value="Al">Al</option>
+        <option value="AK">AK</option>
+        <option value="AZ">AZ</option>
+        <option value="AR">AR</option>
         <option value="CA">CA</option>
+        <option value="CO">CO</option>
+        <option value="CT">CT</option>
+        <option value="DE">DE</option>
+        <option value="FL">FL</option>
+        <option value="GA">GA</option>
+        <option value="HI">HI</option>
+        <option value="ID">ID</option>
+        <option value="IL">IL</option>
+        <option value="IN">IN</option>
+        <option value="IA">IA</option>
+        <option value="KS">KS</option>
+        <option value="KY">KY</option>
+        <option value="LA">LA</option>
+        <option value="ME">ME</option>
+        <option value="MD">MD</option>
+        <option value="MA">MA</option>
+        <option value="MI">MI</option>
       </select>
-      <label for="zip">Zip Code</label>
+      <label for="zip" class=>Zip Code</label>
       <input type="text" id="zip">
     </fieldset>
 
     <!-- Newsletter -->
+    <div class="bar-2"></div>
     <fieldset id="newsletter">
       <legend>Newsletter</legend>
       <p>Select the newsletters you would like to recieve</p>
-      <input type="checkbox" id="html_news" name="news" value="html_news">
-      <label for="html_news">HTML News</label>
-      <input type="checkbox" id="css_news" name="news" value="css_news">
-      <label for="css_news">CSS News</label>
-      <input type="checkbox" id="js_news" name="news" value="js_news">
-      <label for="js_news">Javascript News</label>
+      <div class="container">
+        <div>
+          <input type="checkbox" id="html_news" name="news" value="html_news">
+          <label for="html_news">HTML News</label>
+        </div>
+        <div>
+          <input type="checkbox" id="css_news" name="news" value="css_news">
+          <label for="css_news">CSS News</label>
+        </div>
+        <div>
+          <input type="checkbox" id="js_news" name="news" value="js_news">
+          <label for="js_news">Javascript News</label>
+        </div>
+      </div>
       <p>Newsletter format</p>
-      <input type="radio" id="html" name="news_format" value="html">
-      <label for="html">HTML</label>
-      <input type="radio" id="plain" name="news_format" value="plain">
-      <label for="plain">Plain text</label>
-      <label for="topics">Other topics you'd like to hear about</label>
-      <textarea name="topics" id="topics"></textarea>
-      <input type="submit" value="Sign Up" id="submit">
+      <div class="container">
+        <div>
+          <input type="radio" id="html" name="news_format" value="html">
+          <label for="html">HTML</label>
+        </div>
+        <div>
+          <input type="radio" id="plain" name="news_format" value="plain">
+          <label for="plain">Plain text</label>
+        </div>
+      </div>
+      <p>Other topics you'd like to hear about</p>
+      <div>
+        <textarea name="topics" id="topics"></textarea>
+        <input type="submit" value="Sign Up" id="submit">
+      </div>
     </fieldset>
 
   </form>

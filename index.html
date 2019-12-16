@@ -29,23 +29,23 @@
       <legend>Contact Information</legend>
       <div>
         <label for="full_name">Full Name</label>
-        <input type="text" id="full_name" placeholder="Required" required>
+        <input type="text" id="full_name" name="contact_info" placeholder="Required" required>
       </div>
       <div>
         <label for="email">Email Address</label>
-        <input type="email" id="email" placeholder="Required" required>
+        <input type="email" id="email" name="contact_info" placeholder="Required" required>
       </div>
       <div>
         <label for="phone">Phone Number</label>
-        <input type="tel" id="phone" placeholder="ex: (555) 555-5555">
+        <input type="tel" id="phone" name="contact_info" placeholder="ex: (555) 555-5555">
       </div>
       <div>
         <label for="street_address">Street Address</label>
-        <input type="text" id="street_address" placeholder="677 Treehouse Ave" required>
+        <input type="text" id="street_address" name="contact_info" placeholder="677 Treehouse Ave" required>
       </div>
       <div>
         <label for="city">City</label>
-        <input type="text" id="city" placeholder="Los Angeles" required>
+        <input type="text" id="city" name="contact_info" placeholder="Los Angeles" required>
       </div>
       <div>
         <label for="state" id="state_label">State</label>
@@ -77,7 +77,7 @@
       </div>
       <div>
         <label for="zip">Zip Code</label>
-        <input type="text" id="zip" placeholder="ex: 12345">
+        <input type="text" id="zip" name="contact_info" placeholder="ex: 12345">
       </div>
     </fieldset>
 
@@ -113,7 +113,7 @@
       <p>Other topics you'd like to hear about</p>
       <div>
         <textarea name="topics" id="topics" placeholder="I would like to hear more about ...."></textarea>
-        <input type="submit" value="Sign Up" id="submit">
+        <input type="submit" value="Sign Up" name="submit" id="submit">
       </div>
     </fieldset>
   </form>
